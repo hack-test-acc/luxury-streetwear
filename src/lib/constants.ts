@@ -82,13 +82,13 @@ export const SUSTAINABILITY_FEATURES = [
     id: 2,
     title: 'Responsible Manufacturing',
     description: 'Fair wages and safe working conditions guaranteed',
-    icon: 'Handshake',
+    icon: 'CheckCircle',
   },
   {
     id: 3,
     title: 'Low Waste Packaging',
     description: 'Recyclable and minimal packaging materials',
-    icon: 'Package',
+    icon: 'Box',
   },
   {
     id: 4,
