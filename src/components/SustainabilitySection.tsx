@@ -2,14 +2,14 @@
 
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Leaf, Handshake, Package, Target } from 'lucide-react';
+import { Leaf, CheckCircle, Box, Target } from 'lucide-react';
 import { SUSTAINABILITY_FEATURES } from '@/lib/constants';
 import { staggerContainerVariants, slideUpVariants } from '@/lib/animations';
 
 const iconMap: Record<string, React.ReactNode> = {
   Leaf: <Leaf size={32} />,
-  Handshake: <Handshake size={32} />,
-  Package: <Package size={32} />,
+  CheckCircle: <CheckCircle size={32} />,
+  Box: <Box size={32} />,
   Target: <Target size={32} />,
 };
 
