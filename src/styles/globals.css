@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+/* Base typography */
+body {
+  @apply font-sans text-black-dark bg-cream;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  @apply font-sans font-bold tracking-tight;
+}
+
+/* Links */
+a {
+  @apply transition-colors duration-300;
+}
+
+/* Buttons */
+button {
+  @apply transition-all duration-300;
+}
+
+/* Forms */
+input, textarea, select {
+  @apply transition-colors duration-300;
+}
+
+/* Images */
+img {
+  @apply max-w-full h-auto;
+}
